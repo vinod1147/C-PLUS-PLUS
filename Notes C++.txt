@@ -1,0 +1,113 @@
+Low Level means hardware ke nazdik
+High Level means logical sound aur hardware se dur
+C++ is low level language
+On low level everything is processed on form of numbers
+Variables are containers to store your data
+Comments are written using two forward slashes //
+For multi-line comments use /* your comments here */
+Types of Variables in C++ are:- Int, Float, Char, Double, Boolean
+Based on scope variables are classifed into two types:- 1. Local Variables 2.Gloabal variables
+Scope of variables is the region in code where the existence of variable is valid
+Local Variables are declared inside the braces of any function and can be accessed only from there
+Global Variables are declared oubside any function and can be accessed from anywhere
+Data types define the type of data a variable can hold
+Data types in C++ are categorised in three groups:- 1. Built-in 2. User-defined 3. Derived
+User Defined data types in C++ are Struct, Union, Enum
+Derived data types in C++ are Array, function and Pointer
+Rules to declare variables in C++ --> Variables names in C++ can range 1 to 255 characters, All variables names must begin with a letter, variable names can also contain letters and numbers, Variable names are case sensitive, No spaces or special characters are allowed, You cannot use a C++ keyword(a reserved word) as variable name
+In C++ sequences of bytes corresponding to input and output are commonly known are streans
+Input Stream: Direction of flow of bytes takes place from input device(for ex. Keyboard) to the main memory
+Output Stream: Direction of flow of bytes takes place from main memory to the output device (for ex. Display)
+The operator use after the cout is insertion operator
+The operator use after the oin is Extraction operator
+Reserved Keyboards are not available for re-definition or overloading
+There are tow types of herder file- Systerm header file it comes with the compiler, User define header files: It is written by the programmer 
+Constants cannot be changed
+Control Structures in C++ are Sequence Structure, Selection Structure and Loop Structure these are basic control structures
+Sequence Structure = Entry --> Action 1 --> Action 2 --> Exit
+Selection Structure = Entry --> Condition returns true or false --> Action 2
+                                                    |                  |
+                                                 Action 1 ------>   Exit the program
+Loop Structure = Entry --> Loop with condition --> True, False
+                                  |_________________|      |
+                                  |________________________|
+Three types of loops in C++ are FOr loop, While loop and do-while loop
+Break keyword ends the loop
+Pointer - Data type which holds the address of otherdata types
+& ----> Address of Operator
+* ----> Dereferencing of operator
+To define multiple variables we use comma (,)
+\n ----> Defines the new line
+Local variable has more priority than the global variables
+Local and global variables can be defined by the same name but local variable will have high priority
+Bool has 2 values either true or false
+When using user defined header files the header file should be in the current directory
+Using 'endl' we can also get the new line
+Aritmetic Operator in C++ are:- +, -, *, /, (value)++, (value)--, --(value), ++(value)
+Assignment operator are used to assign values to variables
+Comparison operator are used to compare
+Locgical operator are used to see if the both are true or not
+Logical operators:- &&, ||
+C++ also has bit wise operators
+Scope Resolution operator (::) to print global values
+By deafualt decimals are double in C++
+If we write 'f' after the number it is known as floating number we can also use the capital letter 
+If we write 'l' after the number it is known as long double number we can also use the capital letter
+If we declare the variable with '&' it is use for reference
+Typecasting means changing the variable type
+For typecasting we have to write the type of data before the variable
+Manipulators help in formating the data which is to be shown
+Manipulators:- enl and setw
+setw is used to give space in the progarm
+Operator precedence specifies the order of operations in experssions that contain more than one operator
+do-while loop run 1 time even if condition is false
+break is use to stop the program when the required condition is true
+An array is a collection of items of similar type stored in contiguous memory localtions. Sometimes a simple variable is not enough to hold all the data
+Counting in C++ starts from 0
+We can get the address of the int using the '&' 
+In arrays the name is address of the first block of array we cannot use &(variableName)
+Pointer Aritmetic:- Address new = Address current + i * sizeof(datatype)     
+Structures in C++ are user defined data types which are used to store group of items on non-similar data types
+Unions provide better memory management
+Enum:- Special data type that enables for a variable to be set of predefined Constants
+A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function.
+A function prototype is a declaration in C++ of a function, its name, parameters and returns type before its actual declaration. This enables the compiler to perform more robust type checking
+Formal parameters are alaways variables, while actual parameters do not have to be variables
+We have to use inline function when there is less line of code in our function
+Static variables in a function: when a variable is declared as static, space for it gets allocated for the lifetime of program
+Recursion is a method in C++ which calls itself directly or indirectly until a suitable condition is met
+When a function name is overloaded with different jobs it is called Function overloading
+C++ language was designed with the main intention of adding object-oriented features to C language
+Procedure Oriented Progarmming:- CHECK BELOW
+1. Consists of writing a set of instruction for the computer to follow
+2. Main focus is on functions and not on flow of Data
+3. Functions can either use local or global data
+4. Data moves openly form function to function
+Object Oriented Progarmming:- CHECK BELOW
+1. Works on the concept of classes and objects
+2. A class is a template to create objects
+3. Treats data as a critical element
+4. Decomposes the problem in objects and builds data and functions around the objects
+Classes in OOPS - Basic template for creating objects
+Objects in OOPS - Basic run time entities
+Data Abstraction & Encapsulation in OOPS - Wrapping data and functions into single unit.
+Inheritance in OOPS - Properties of one class can be inherited into others
+Polymorphism in OOPS - Ability to take more than one forms
+Dynamic Binding in OOPS - code which will execute is not known until the program.
+Message Passing in OOPS - Object.message(Information) call format
+Trick to Remember four pillars of OOPS:- i ate A PIE = A = Abstraction, P = Polymorphism, I = Inheritance and E = Encapsulation.
+Benefits of OOPS are:- Better code reusability using objects and Inheritance, Principle of data hiding helps build secure systems, Multiple objects can co-exist without any interference, Software complexity can be easily managed.
+Data hiding is not available in structures
+We cannot use functions in structures
+It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class
+A garbage value in means a not meaningful value hold by any variable due to the absense of its initialisation is called garbage value of variable
+Private data should be called by the function
+C++ was initially called C with calles by stroustroup
+Class extension of structures (in C) - structures had limitations - members are public, no methods
+classes = structures + more, classes can have methods and Properties, can make few members as private or few as public
+Structures in C++ are typedefed
+In classes you can declare objects along with the class declaration
+By deafualt class members are private
+Static variable is initalised by 0 by deafualt
+Two properties of static functions are - They can access static data members only, They can run without making any objects for the class
+Static variable is only one and it is share by all objects
